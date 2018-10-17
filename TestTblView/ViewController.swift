@@ -89,7 +89,7 @@ extension UIViewController: UICollectionViewDataSource, UICollectionViewDelegate
         let identifier = "ColletionCell"
         collectionView.register((UINib(nibName: "CollectionViewCell", bundle: nil)), forCellWithReuseIdentifier: identifier)
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as! CollectionViewCell
-        cell.imgView.image = UIImage(named: "My_Pic.jpg")
+        cell.imgView.image = UIImage(named:"imgView")
         
         return cell
     }

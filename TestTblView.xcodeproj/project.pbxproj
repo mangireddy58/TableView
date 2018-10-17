@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C20A034A217707B200695DD8 /* My_Pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20A0349217707B200695DD8 /* My_Pic.jpg */; };
 		C20A034F21770EDF00695DD8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20A034D21770EDF00695DD8 /* CollectionViewCell.swift */; };
 		C20A035021770EDF00695DD8 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C20A034E21770EDF00695DD8 /* CollectionViewCell.xib */; };
 		C28D9741217701C900BA8A8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D9740217701C900BA8A8B /* AppDelegate.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C20A0349217707B200695DD8 /* My_Pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = My_Pic.jpg; sourceTree = "<group>"; };
 		C20A034D21770EDF00695DD8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		C20A034E21770EDF00695DD8 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		C28D973D217701C900BA8A8B /* TestTblView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTblView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +60,6 @@
 		C28D973F217701C900BA8A8B /* TestTblView */ = {
 			isa = PBXGroup;
 			children = (
-				C20A0349217707B200695DD8 /* My_Pic.jpg */,
 				C28D9740217701C900BA8A8B /* AppDelegate.swift */,
 				C28D9742217701C900BA8A8B /* ViewController.swift */,
 				C28D9752217704E300BA8A8B /* CustomCell */,
@@ -144,7 +141,6 @@
 			files = (
 				C28D974B217701CA00BA8A8B /* LaunchScreen.storyboard in Resources */,
 				C28D9748217701CA00BA8A8B /* Assets.xcassets in Resources */,
-				C20A034A217707B200695DD8 /* My_Pic.jpg in Resources */,
 				C28D9746217701C900BA8A8B /* Main.storyboard in Resources */,
 				C20A035021770EDF00695DD8 /* CollectionViewCell.xib in Resources */,
 			);

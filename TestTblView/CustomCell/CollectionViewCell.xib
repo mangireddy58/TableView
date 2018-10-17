@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gIb-fr-XeH">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgView" translatesAutoresizingMaskIntoConstraints="NO" id="gIb-fr-XeH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
                     </imageView>
                 </subviews>
@@ -35,7 +35,10 @@
             <connections>
                 <outlet property="imgView" destination="gIb-fr-XeH" id="KES-pR-EYf"/>
             </connections>
-            <point key="canvasLocation" x="-102.40000000000001" y="75.562218890554732"/>
+            <point key="canvasLocation" x="-512" y="86"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="imgView" width="1280" height="720"/>
+    </resources>
 </document>
